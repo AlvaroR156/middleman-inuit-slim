@@ -113,6 +113,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rack-zippy (3.0.1)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -155,6 +156,7 @@ DEPENDENCIES
   middleman-livereload (= 3.4.4)
   puma (= 2.15.3)
   rack-contrib (= 1.4.0)
+  rack-zippy
   sass (= 3.4.20)
   slim (= 3.0.6)
   tzinfo-data

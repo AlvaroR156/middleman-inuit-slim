@@ -1,6 +1,11 @@
 require 'rubygems'
 require 'rack'
 require 'rack/contrib/try_static'
+require 'rack-zippy'
+require 'zippy_static_cache'
+
+use ZippyStaticCache, :urls => ['/images', '/stylesheets', '/javascripts', '/fonts']
+use Rack::Zippy::AssetServer, 'build'
 
 # Serve files from the build directory
 use Rack::TryStatic,

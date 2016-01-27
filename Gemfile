@@ -15,6 +15,7 @@ gem 'middleman-autoprefixer', '2.6.1'
 
 # Rack Middleware and Utilities
 gem 'rack-contrib', '1.4.0'
+gem "rack-zippy"
 
 # For faster file watcher updates on Windows:
 gem 'wdm', '0.1.1', :platforms => [:mswin, :mingw]
