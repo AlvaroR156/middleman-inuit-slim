@@ -11,6 +11,10 @@
 # ----------------------------------------------
 ::Slim::Engine.set_options :format  => :html
 
+# HAML HTML
+# ----------------------------------------------
+set :haml, { :ugly => true, :format => :html5 }
+
 
 # i18n
 # ----------------------------------------------
@@ -54,7 +58,7 @@ configure :development do
   set :debug_assets, true
 
   # Output a pretty html
-  ::Slim::Engine.set_options :pretty => true
+  # ::Slim::Engine.set_options :pretty => true
 
   # Activate autoprefixer
   activate :autoprefixer

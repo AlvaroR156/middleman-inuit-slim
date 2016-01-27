@@ -16,9 +16,9 @@
 // 7. Trumps -------- Overrides and helper classes.
 
 
+
 // [0] Requirements
 @import "requirements"
-
 
 // [1] Settings
 @import "inuit-defaults/settings.defaults"
@@ -32,8 +32,8 @@
 @import "inuit-functions/tools.functions"
 @import "inuit-mixins/tools.mixins"
 @import "tools/tools.mixins"
-@import "tools/tools.mediaqueries"
 @import "tools/tools.intrinsic-ratio"
+
 
 
 // [3] Generic
@@ -64,12 +64,14 @@ $inuit-enable-btn--full:  true
 @import "inuit-media/objects.media"
 @import "inuit-flag/objects.flag"
 @import "objects/objects.containers"
+@import "csswizardry-grids/csswizardry-grids"
 
 
 // [6] Components
 @import "components/components.buttons"
 // >>> Your components here <<<
-
+@import "generic/generic.example"
+@import "generic/generic.custom"
 
 // [7] Trumps
 @import "inuit-clearfix/trumps.clearfix"
