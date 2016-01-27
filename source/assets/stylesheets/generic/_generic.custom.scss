@@ -1,0 +1,6 @@
+.mytextcolour {
+  color: #fe34df;
+  @include grid-media-query(palm) {
+    color: #eee;
+  }
+}
