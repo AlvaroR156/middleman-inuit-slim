@@ -18,7 +18,7 @@ set :haml, { :ugly => true, :format => :html5 }
 
 # i18n
 # ----------------------------------------------
-activate :i18n, :mount_at_root => :'pt-BR'
+activate :i18n, :mount_at_root => :'en-GB'
 
 
 # Livereload
