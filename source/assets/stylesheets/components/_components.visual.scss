@@ -26,11 +26,3 @@
         }
     }
 }
-
-body {
-  padding: 3em;
-   @include grid-media-query(portable) {
-    padding: 2em;
-  }
-
-}
