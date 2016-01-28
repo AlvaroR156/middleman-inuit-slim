@@ -1,6 +1,0 @@
-.mytextcolour {
-  color: #fe34df; }
-  @media only screen and (max-width: 480px) {
-    .mytextcolour {
-      color: #eee; }
-}

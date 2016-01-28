@@ -1,6 +1,6 @@
-/ meta name='description' content="#{page_description}"
-/ meta property='og:url' content="#{current_page_url}"
-/ meta property='og:title' content="#{page_title}"
+meta name='description' content="#{current_page.data.description}"
+meta property='og:url' content="#{current_page.url}"
+meta property='og:title' content="#{current_page.data.title}"
 / meta name='twitter:title' content="#{page_title}"
 / - if data.page.thumb
 /   meta property='og:image' content="#{site_url}/#{data.page.thumb}"

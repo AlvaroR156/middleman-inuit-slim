@@ -1,6 +1,63 @@
+$window_title_img: image-url('toolbar.png');
+$ipad_img: image-url('iPad.jpg');
+
 .mytextcolour {
   color: #fe34df;
   @include grid-media-query(palm) {
     color: #eee;
   }
 }
+
+.window_panel {
+  background-image: $window_title_img;
+  background-position: 100% 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  padding-top: 3.2%;
+  // @include breakpoint(lg) {
+  //   padding-top: 2.7%;
+  // }
+
+  margin-top: 30px;
+}
+.ipad_device {
+  background-image: $ipad_img;
+  background-position: 100% 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  padding-top: 3.2%;
+  // @include breakpoint(lg) {
+  //   padding-top: 2.7%;
+  // }
+
+  margin-top: 30px;
+}
+
+section.projects {
+  margin-top: 50px;
+  .grid__item{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+.grid{
+  .lionbox {
+    a {
+      background-color: #000;
+      display: block;
+      vertical-align: middle;
+      padding: 2.5em 2em;
+    }
+  }
+  .zinknotes {
+    a {
+      background-color: #FCF6E3;
+      display: block;
+      vertical-align: middle;
+      padding: 2.97em 2em;
+    }
+  }
+}
+

@@ -36,6 +36,7 @@
 
 
 
+
 // [3] Generic
 @import "inuit-normalize/generic.normalize"
 @import "inuit-box-sizing/generic.box-sizing"
@@ -64,14 +65,17 @@ $inuit-enable-btn--full:  true
 @import "inuit-media/objects.media"
 @import "inuit-flag/objects.flag"
 @import "objects/objects.containers"
+$gutter:                30px!default
 @import "csswizardry-grids/csswizardry-grids"
 
 
 // [6] Components
 @import "components/components.buttons"
+@import "components/components.visual"
 // >>> Your components here <<<
 @import "generic/generic.example"
-// @import "generic/generic.custom"
+@import "generic/generic.custom"
+
 
 // [7] Trumps
 @import "inuit-clearfix/trumps.clearfix"

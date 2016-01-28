@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="245px" height="61px" viewBox="0 0 245 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3 (11970) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="AR---Design-1-Copy" sketch:type="MSArtboardGroup" transform="translate(-48.000000, -442.000000)">
+            <g id="logo" sketch:type="MSLayerGroup" transform="translate(48.000000, 436.500000)">
+                <g id="Group" transform="translate(0.723083, 5.506652)" sketch:type="MSShapeGroup">
+                    <g transform="translate(34.089107, 27.879936) rotate(45.000000) translate(-34.089107, -27.879936) translate(29.089107, 22.879936)" id="Rectangle-path" fill="#F6A623">
+                        <rect x="0.613857784" y="0.624815233" width="9.20786677" height="9.20495087"></rect>
+                    </g>
+                    <g transform="translate(28.560873, 28.793531) rotate(45.000000) translate(-28.560873, -28.793531) translate(8.366312, 8.605364)" id="Shape" fill="#FFFFFF">
+                        <path d="M40.3086669,40.3763331 L0,40.3763331 L4.57341803e-15,0.0804309424 L40.3086669,0.0804309424 L40.3086669,40.3763331 L40.3086669,40.3763331 Z M34.7245085,34.7939431 L34.7245085,5.66282093 L5.58415835,5.66282164 L5.58415799,34.7939438 L34.7245082,34.7939442 L34.7245085,34.7939431 Z"></path>
+                    </g>
+                </g>
+                <text id="LIONBOX" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="41" font-weight="526" letter-spacing="0.288051248" fill="#FFFFFF">
+                    <tspan x="66" y="38">LIONBOX</tspan>
+                </text>
+                <text id="Sub-heading" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="17" font-weight="260" letter-spacing="0.600000024" fill="#FFFFFF">
+                    <tspan x="68" y="62">Digital Media Service</tspan>
+                    <tspan x="235.334001" y="62">s</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
