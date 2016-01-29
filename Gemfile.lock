@@ -1,6 +1,5 @@
 GEM
   remote: https://rubygems.org/
-  remote: https://rails-assets.org/
   specs:
     activesupport (4.2.5)
       i18n (~> 0.7)
@@ -117,7 +116,6 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rack-zippy (3.0.1)
-    rails-assets-particles.js (2.0.0)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -163,7 +161,6 @@ DEPENDENCIES
   puma (= 2.15.3)
   rack-contrib (= 1.4.0)
   rack-zippy
-  rails-assets-particles.js!
   sass (= 3.4.20)
   slim (= 3.0.6)
   tzinfo-data
