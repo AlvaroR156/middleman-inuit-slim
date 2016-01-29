@@ -15,3 +15,9 @@
 # Particles
 # -------------------------------------
 #= require particles.js/particles
+
+
+# -------------------------------------
+# Picturefill
+# -------------------------------------
+#= require picturefill/dist/picturefill

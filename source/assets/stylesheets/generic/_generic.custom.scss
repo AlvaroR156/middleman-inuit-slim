@@ -35,6 +35,7 @@ section#top-section {
   position: relative;
   margin-bottom: 0;
   z-index: 1;
+  background-color: #FEF736;
   background: image-url('yellow-metal-design-decoration.jpg') no-repeat;
   background-size: cover;
   background-position: 0% 100%;
@@ -46,13 +47,6 @@ section#top-section {
   }
 }
 
-section#projects {
-  margin-top: 50px;
-  .project-item{
-    margin-bottom: 30px;
-    text-align: center;
-  }
-}
 .window_panel {
   background-image: $window_title_img;
   background-position: 100% 0;
@@ -85,23 +79,22 @@ section.projects {
   .grid__item{
     margin-bottom: 30px;
     text-align: center;
+    a {
+      padding: 1em 2em;
+      display: block;
+      vertical-align: middle;
+    }
   }
 }
 .grid{
   .lionbox {
     a {
       background-color: #000;
-      display: block;
-      vertical-align: middle;
-      padding: 2.5em 2em;
     }
   }
   .zinknotes {
     a {
       background-color: #FCF6E3;
-      display: block;
-      vertical-align: middle;
-      padding: 2.97em 2em;
     }
   }
 }

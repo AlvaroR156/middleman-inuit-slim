@@ -9,7 +9,10 @@
 # -------------------------------------
 #= require components/_components.fastclick
 
-#= require components/_components.particles.js
+#= require components/_components.particles
+
+#= require components/_components.picturefill
+
 
 # -------------------------------------
 #   Inbox
