@@ -9,3 +9,9 @@
 # Fastclick
 # -------------------------------------
 #= require fastclick/lib/fastclick
+
+
+# -------------------------------------
+# Particles
+# -------------------------------------
+#= require particles.js/particles
