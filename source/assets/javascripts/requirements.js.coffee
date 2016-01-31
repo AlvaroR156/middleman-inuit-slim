@@ -21,3 +21,8 @@
 # Picturefill
 # -------------------------------------
 #= require picturefill/dist/picturefill
+
+# -------------------------------------
+# Vivus
+# -------------------------------------
+#= require vivus/dist/vivus

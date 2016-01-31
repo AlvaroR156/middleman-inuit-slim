@@ -35,3 +35,6 @@ gem 'faker', '1.6.1'
 
 # Font-Awesome
 gem 'font-awesome-middleman'
+
+# SVG
+gem 'inline_svg'
