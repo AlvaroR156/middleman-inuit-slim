@@ -87,17 +87,67 @@ section.projects {
   }
 }
 .grid{
+  a{
+    background-color: #FFF;
+  }
   .lionbox {
     a {
-      background-color: #000;
+      background-image: image-url('logo-lionbox-ai-05-base.svg');
+      transform: scale(1, 1);
+      transition: transform .3s ease-in-out, background-color .3s ease-in-out;
+    }
+    a:hover {
+       background-color: #000;
+      background-image:  image-url('logo-lionbox-ai-05.svg');
+      transform: scale(1.1, 1.1);
+      transition: transform .3s ease-in-out, background-color .1s ease-in-out;
     }
   }
   .zinknotes {
     a {
-      background-color: #FCF6E3;
+      background-image: image-url('logo-zinknotes-ai-05-base.svg');
+      transform: scale(1, 1);
+      transition: transform .3s ease-in-out, background-color .3s ease-in-out;
+    }
+    a:hover {
+      background-color: #F4F3EE;
+      background-image:  image-url('logo-zinknotes-ai-07.svg');
+      transform: scale(1.1, 1.1);
+      transition: transform .3s ease-in-out, background-color .1s ease-in-out;
+    }
+  }
+  .daily_ui {
+    a {
+      background-image: image-url('logo-daily-ui-ai-05-base.svg');
+      transform: scale(1, 1);
+      transition: transform .3s ease-in-out;
+    }
+    a:hover {
+      background-color: #F5F5F5;
+      background-image: image-url('logo-daily-ui-ai-05.svg');
+      transform: scale(1.1, 1.1);
+      transition: transform .3s ease-in-out;
     }
   }
 }
+
+@keyframes animatedBackground {
+    0% {
+      -webkit-opacity: scale(1, 1);
+      -moz-opacity: scale(1, 1);
+      -ms-opacity: scale(1, 1);
+      -o-opacity: scale(1, 1);
+      opacity: scale(1, 1)
+    }
+    100% {
+      -webkit-opacity: scale(1.1, 1.1);
+      -moz-opacity: scale(1.1, 1.1);
+      -ms-opacity: scale(1.1, 1.1);
+      -o-opacity: scale(1.1, 1.1);
+      opacity: scale(1.1, 1.1)
+    }
+
+  }
 
 
 .bloc-head {
