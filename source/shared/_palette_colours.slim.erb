@@ -8,3 +8,24 @@ p Colour palette grid
 
     p.text-banner #<%= f %>
   <% end %>
+  .clearfix
+  <% data.palettes.colours.lionbox.each_with_index do |f, index| %>
+  .grid__item.tv--one-sixth
+    .palette.square.lionbox_<%= index %>
+
+    p.text-banner #<%= f %>
+  <% end %>
+  .clearfix
+  <% data.palettes.colours.lionbox.each_with_index do |f, index| %>
+  .grid__item.tv--one-sixth
+    .palette.circle.lionbox_<%= index %>
+
+    p.text-banner #<%= f %>
+  <% end %>
+  .clearfix
+  <% data.palettes.colours.lionbox.each_with_index do |f, index| %>
+  .grid__item.tv--one-sixth
+    .palette.rombo.lionbox_<%= index %>
+
+    p.text-banner #<%= f %>
+  <% end %>
