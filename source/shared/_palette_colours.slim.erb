@@ -1,0 +1,10 @@
+p Colour palette grid
+  <!-- <%= data.palettes.colours %> -->
+
+.grid.grid--center.grid--full
+  <% data.palettes.colours.lionbox.each_with_index do |f, index| %>
+  .grid__item.tv--one-sixth
+    .palette.lionbox_<%= index %>
+
+    p.text-banner #<%= f %>
+  <% end %>

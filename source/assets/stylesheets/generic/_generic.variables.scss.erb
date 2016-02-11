@@ -1,0 +1,10 @@
+$mytestvariable: "#fff";
+
+<% data.palettes.colours.lionbox.each_with_index do |f, index| %>
+  .lionbox_<%= index %>{color: #<%= f %>; background-color: #<%= f %>;}
+<% end %>
+
+<% data.palettes.colours.zinknotes.each_with_index do |f, index| %>
+  .zinknotes_<%= index %>{color: #<%= f %>; background-color: #<%= f %>;}
+<% end %>
+

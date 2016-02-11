@@ -1,3 +1,5 @@
+@import "generic.variables";
+
 $window_title_img: image-url('toolbar.png');
 $ipad_img: image-url('iPad.jpg');
 
@@ -149,9 +151,13 @@ section.projects {
 
   }
 
-
 .bloc-head {
     color: #5aa8c5;
     padding: 30px;
 }
+
+.palette {
+    min-height: 60px;
+}
+
 

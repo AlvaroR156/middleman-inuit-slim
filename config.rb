@@ -27,7 +27,6 @@ configure :development do
   activate :livereload, :no_swf => true
 end
 
-
 # Bower Config
 # ----------------------------------------------
 after_configuration do
