@@ -1,18 +1,20 @@
 .container
-    section.projects
+    section.projects#projects
         .grid
             .grid__item.lap--one-half.desk--one-third.tv--one-quarter.lionbox
-                =link_to "lionbox" do
+                =link_to "lionbox#projects", :class => "#{'active' if current_page.url == "/lionbox"}" do
                   =image_tag('logo-empty.svg')
             .grid__item.lap--one-half.desk--one-third.tv--one-quarter.zinknotes
-                =link_to "zinknotes" do
+                =link_to "zinknotes", :class => "#{'active' if current_page.url == "/zinknotes"}" do
                   =image_tag('logo-empty.svg')
                 end
             .grid__item.lap--one-half.desk--one-third.tv--one-quarter.daily_ui
-                =link_to "daily_ui" do
+                =link_to "daily_ui", :class => "#{'active' if current_page.url == "/daily_ui"}" do
                   =image_tag('logo-empty.svg')
                 end
             .grid__item.lap--one-half.desk--one-third.tv--one-quarter
                 =link_to "test_area" do
                   img src=lorem.image('500x225') alt=""/
                 end
+
+p #{current_page.url}

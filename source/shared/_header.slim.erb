@@ -1,0 +1,8 @@
+= partial 'shared/navigation'
+p  text #{ if current_page.url === "/"}
+<%= current_page.url %>
+<% if current_page.url === "/" %>
+  p hello
+  = partial 'shared/head_jumbotron'
+<% end %>
+= partial 'shared/projects_new'
