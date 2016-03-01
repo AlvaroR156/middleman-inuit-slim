@@ -1,6 +1,6 @@
 .container
     section.projects#projects
-        .grid
+        .grid.grid--center
             .grid__item.lap--one-half.desk--one-third.tv--one-quarter.lionbox
                 =link_to "lionbox", :class => "#{'active' if current_page.url == "/lionbox"}" do
                   =image_tag('logo-empty.svg')
@@ -12,7 +12,7 @@
                 =link_to "daily_ui", :class => "#{'active' if current_page.url == "/daily_ui"}" do
                   =image_tag('logo-empty.svg')
                 end
-            .grid__item.lap--one-half.desk--one-third.tv--one-quarter
-                =link_to "test_area" do
-                  img src=lorem.image('500x225') alt=""/
+            .grid__item.lap--one-half.desk--one-third.tv--one-quarter.meetup
+                =link_to "meetup", :class => "#{'active' if current_page.url == "/meetup"}" do
+                  =image_tag('logo-empty.svg')
                 end

@@ -130,6 +130,7 @@ section#top-section {
 
 section.projects {
   margin-top: 50px;
+  margin-bottom: 30px;
   .grid__item{
     margin-bottom: 30px;
     text-align: center;
@@ -144,47 +145,10 @@ section.projects {
   a{
     background-color: #FFF;
   }
-  .lionbox {
-    a {
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-      background-image: image-url('logo-lionbox-ai-05-base.svg');
-      transform: scale(1, 1);
-      transition: transform .3s ease-in-out, background-color .3s ease-in-out, box-shadow 0.2s ease-in-out;
-    }
-    a:hover, .active {
-      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-      background-color: #000;
-      background-image:  image-url('logo-lionbox-ai-06.svg');
-      transform: scale(1.05, 1.05);
-      transition: transform .3s ease-in-out, background-color .1s ease-in-out, box-shadow 0.2s ease-in-out;
-    }
-  }
-  .zinknotes {
-    a {
-      background-image: image-url('logo-zinknotes-ai-05-base.svg');
-      transform: scale(1, 1);
-      transition: transform .3s ease-in-out, background-color .3s ease-in-out;
-    }
-    a:hover, .active  {
-      background-color: #F4F3EE;
-      background-image:  image-url('logo-zinknotes-ai-07.svg');
-      transform: scale(1.1, 1.1);
-      transition: transform .3s ease-in-out, background-color .1s ease-in-out;
-    }
-  }
-  .daily_ui {
-    a {
-      background-image: image-url('logo-daily-ui-ai-05-base.svg');
-      transform: scale(1, 1);
-      transition: transform .3s ease-in-out;
-    }
-    a:hover, .active {
-      background-color: #F5F5F5;
-      background-image: image-url('logo-daily-ui-ai-05.svg');
-      transform: scale(1.1, 1.1);
-      transition: transform .3s ease-in-out;
-    }
-  }
+  @include project-element("lionbox", "#000", "logo-lionbox-ai-05-base.svg", "logo-lionbox-ai-06.svg");
+  @include project-element("zinknotes", "#F4F3EE", "logo-zinknotes-ai-05-base.svg", "logo-zinknotes-ai-07.svg");
+  @include project-element("daily_ui", "#F5F5F5", "logo-daily-ui-ai-05-base.svg", "logo-daily-ui-ai-05.svg");
+  @include project-element("meetup", "#F5F5F5", "logo-meetup-base.svg", "logo-meetup.svg");
 }
 
 @keyframes animatedBackground {
