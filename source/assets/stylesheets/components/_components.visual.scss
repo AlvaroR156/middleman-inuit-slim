@@ -17,7 +17,7 @@
     @include visible;
 }
 @if $responsive{
-    @each $state in palm, lap, lap-and-up, portable, desk, desk-wide{
+    @each $state in palm, lap, portable, desk{
         @include grid-media-query(#{$state}){
             .visible--#{$state},
             .hidden--#{$state}{
