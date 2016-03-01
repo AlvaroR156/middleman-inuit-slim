@@ -1,18 +1,37 @@
 p Colour palette grid
   <!-- <%= data.palettes.colours %> -->
 <% hash = data.palettes.colours %>
+
 <% hash.each_with_index do |h, i| %>
+<% p = h[0] %>
+<% h[1].each do |h| %>
+p Colour Individual: <%= p %> <%= h %>
+<% end %>
 p Palette Name: <%= h[0] %>
 p Colours: <%= h[1] %>
 <% end %>
 
 .grid.grid--center.grid--full
+
+  <% hash.each_with_index do |h, i| %>
+  <% p = h[0] %>
+  .grid__item.palm--one-half.lap--one-third.desk--one-quarter.tv--one-sixth
+    <% h[1].each_with_index do |h, i| %>
+    .palette.<%= p %>_<%= i %>
+    p.text-banner #<%= h %>
+    <% end %>
+
+
+  <% end %>
+  .clearfix
+
   <% data.palettes.colours.lionbox.each_with_index do |f, index| %>
   .grid__item.palm--one-half.lap--one-third.desk--one-quarter.tv--one-sixth
     .palette.lionbox_<%= index %>
 
     p.text-banner #<%= f %>
   <% end %>
+
   .clearfix
   <% data.palettes.colours.lionbox.each_with_index do |f, index| %>
   .grid__item.palm--one-half.lap--one-third.desk--one-quarter.tv--one-sixth
