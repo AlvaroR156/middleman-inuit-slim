@@ -13,7 +13,6 @@
 
 #= require components/_components.picturefill
 
-
 # -------------------------------------
 #   Inbox
 # -------------------------------------

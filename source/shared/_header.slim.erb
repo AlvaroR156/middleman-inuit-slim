@@ -1,6 +1,8 @@
 = partial 'shared/navigation'
 <% if current_page.url == '/'%>
 = partial 'shared/head_jumbotron'
+<% else %>
+= partial 'shared/head_navigation'
 <% end %>
 = partial 'shared/projects_new'
 
